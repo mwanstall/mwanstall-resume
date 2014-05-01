@@ -1,0 +1,30 @@
+/* Page style */
+#page					{ margin: 0 auto 36px auto; }
+body					{ -webkit-text-stroke: 1px transparent; }
+.clear {clear:both;}
+
+
+/* SECTION CONTACT */
+
+
+
+/* SECTION SKILLS */
+.skill-list 			{list-style: none; margin-left: 0; clear:both;}
+.skill-list .skill-item 	{list-style: none; padding-right:20px; float:left;}
+.lang				{display:block; float:left; width:130px;}
+.exp				{display:block float:left; width:50px;}
+
+/* SECTION EDUCATION */
+.edu				{ display:block; margin-bottom:10px;}
+.edu .edu-yr 			{ display:block; float:left; width: 100px; }
+.edu .edu-item 			{ display:block; float:left; width: 400px; }
+.edu .edu-place 		{ display:block; float:left; width: 200px; }
+.edu .edu-blurb 		{ display:block; clear:both; margin-left:100px; padding-top:20px;}
+
+/* SECTION EMPLOYMENT */
+.emp-history			{ display:block; }
+.emp-history .emp-position	{ display:block; font-size: 150%; font-weight:300; }
+.emp-history .emp-name		{ display:block; float:left; font-size: 130%; width:500px; }
+.emp-history .emp-years		{ display:block; float:left; font-size: 120%; }
+.emp-history .emp-duties	{ display:block; float:left; width:500px; }
+.holder 			{ display:block; float:left; width: 185px; height: 70px; }

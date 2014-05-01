@@ -1,0 +1,127 @@
+.table {
+  display: table;
+}
+.row {
+  display: table-row;
+  width:880px;
+}
+.column {
+  display: table-cell;
+  width:20%;
+}
+
+.logo {
+	float: right;
+	margin-right: 100px;
+}
+
+#top {
+
+	display: block;
+	background-color: #CCCCCC;
+	color:#FFFFFF;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 21px;
+	text-align: center;
+}
+/*
+.marg {
+	width: 50%;
+	text-align: center;
+}*/
+
+.container {
+	max-width: 900px;
+	margin-right: auto;
+ 	margin-left: auto;
+}
+
+body {
+	display: block;
+	margin: 0;
+}
+
+a{
+	color:#336699;
+}
+
+a:visited{
+	color:#333366;
+}
+
+
+p{
+max-width: 900px;
+padding-left: elastic;
+padding-bottom: 13px;
+}
+
+p, ul{
+font-family: Arial, Helvetica, sans-serif;
+max-width: 900px;
+font-size: 13px;
+line-height: 21px;
+
+color: #474747;
+background-color: #FFF;
+}
+
+ul {
+	margin-left: 0px;
+	padding-left: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	color: #444;
+}
+
+h1 {
+	line-height: 1.4;
+	font-size: 2.6rem;
+	margin: 1em 0 .5em 0;
+	font-weight: 400;
+}
+
+h2 {
+	line-height: 1.4;
+	font-size: 1.7em;
+	margin: 0.5em 0 .5em 0;
+	font-weight: 300;
+	border-bottom: 2px #F2F2F2 solid;
+}
+
+h3 {
+	font-weight: 300;
+}
+
+h4 {
+
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	color:#DF3A01;
+}
+h5 {
+
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	color:#8A0808;
+}
+
+h6 {
+
+	font-weight: 150;
+	margin: 0.5em 0 0 0;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	color:#8A0808;
+}
+
+.hl { 
+	color:#04B404; 
+	background-color: #E0ECF8;
+}

@@ -1,0 +1,248 @@
+/********************/
+/* Regular Elements */
+/********************/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #333;
+	text-shadow: 0 0 -1px #000;
+	background: url(/img/mwanstall_header_bkg.png) no-repeat 50% 10px;
+	/*font: 14px Helvetica, Arial, sans-serif;*/
+	font: 73%/1.4 Verdana, sans-serif;
+}
+a {
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration: none;
+	-webkit-transition: color 250ms linear;
+	color: #cc8088;
+	margin: 0;
+	padding: 0;
+	font: 200 100% Arial, Helvetica, sans-serif;
+}
+a:hover {
+	color: #4f7c98;
+}
+p {
+	font-family: Verdana, sans-serif;
+	margin: 0 0 24px;
+}
+h1 {
+	font-size: 24px;
+	letter-spacing: -1px;
+	line-height: 24px;
+	padding: 0 0 24px;
+}
+h2 {
+	font-size: 24px;
+	font-weight: 300;
+	padding: 0 0 24px;
+}
+h2 + p {
+	text-indent: 0;
+}
+h3 {
+	padding: 0 0 24px;
+}
+ol, ul {
+	margin-bottom: 24px;
+	margin-left: 30px;
+}
+img {
+	padding-left:5px;
+	padding-right:5px;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+input, select {
+	vertical-align: middle;
+}
+html {
+	background: #f2f7f9 url(/img/mwanstall_html_bkg.png) repeat 50% 0;
+}
+
+/********************/
+/* Clearfix         */
+/********************/
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+* html .clearfix {
+	height: 1%;
+}
+
+/************************/
+/* Main Page and Header */
+/************************/
+.page .header, .container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.page {
+	margin: 0 0 43px;
+}
+.page .header h1 {
+	float: left;
+	width: 342px;
+	padding: 0;
+	margin-top:30px;
+}
+.page .header h1 a {
+	display: block;
+	height: 80px;
+	text-indent: -9999px;
+	background: url(/img/mwanstall-logo_small_trans.png) no-repeat;
+}
+.header h1 {
+	font-size: 20px;
+	letter-spacing: -1px;
+	line-height: 18px;
+	padding: 0 0 18px;
+}
+.header, .clearfix {
+	display: block;
+}
+
+/************************/
+/* Menubar and Terminal */
+/************************/
+.menubar {
+	top: 20px;
+	font-size: 11px;
+	position: fixed;
+	width: 940px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background: rgba(0, 0, 0, 0.5);
+}
+.menubar a {
+	color: rgba(255, 255, 255, 0.9);
+	display: block;
+	-webkit-transition: all 250ms linear;
+	padding: 3px 10px;
+}
+.menubar a:hover {
+	color: rgba(255, 255, 255, 0.9)!important;
+	text-shadow: 0 0 5px #fff;
+}
+.menubar a.next {
+	float: right;
+}
+.menubar a.previous {
+	float: left;
+}
+.terminal{
+	top: 60px;
+	font-size: 11px;
+	position: fixed;
+	width: 940px;
+	background: rgba(0, 0, 0, 0.5);
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.terminal #termText{
+	background: rgba(0, 0, 0, 0.0);
+	border:1px solid #ffffff;
+	color:#ffffff;
+	width:917px;
+	padding:5px;
+	margin:5px;
+	font-size:110%;
+}
+.terminal a{
+	color: rgba(255, 255, 255, 0.9);
+	-webkit-transition: all 250ms linear;
+	padding: 3px 10px;
+}
+.defaultTextActive { 
+	color: #a1a1a1; 
+	font-style: italic; 
+}
+
+/*********************/
+/* Left Side Article */
+/*********************/
+.article-l {
+	float:left;
+	color: #555c64;
+	margin: 38px 0 0;
+	width:500px;
+	padding-left: 20px;
+}
+.article-l h1 {
+	font-family: Palatino, Georgia, 'Times New Roman', serif;
+	font-weight: 100;
+	letter-spacing: 0;
+	text-align:center;
+	text-shadow: 0 1px 0 #fff;
+	width: 520px;
+	/*padding: 0 0 29px;*/
+}
+.article-l h2 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font: 14px Palatino, Georgia, 'Times New Roman', serif;
+}
+
+/**********************/
+/* Right Side Article */
+/**********************/
+.article-r {
+	float:right;
+	background-color:rgba(27, 87, 144, 0.4);
+	color:#ffffff;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	/*background-color:rgba(255, 255, 255, 0.4);
+	color: #555c64;*/
+	margin: 20px 20px 0 0;
+	width: 340px;
+	padding: 20px;
+}
+.article-r h1 {
+	font-family: Palatino, Georgia, 'Times New Roman', serif;
+	font-weight: 100;
+	letter-spacing: 0;
+	text-shadow: 0 1px 0 #fff;
+	width: 420px;
+	/*padding: 0 0 29px;*/
+}
+.article-r h2 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font: 14px Palatino, Georgia, 'Times New Roman', serif;
+}
+.article-r .l {
+	float:left;
+	padding-right:15px;
+}
+.article-r .l p {
+	font-size:70%;
+	text-align:center;
+}

@@ -1,0 +1,327 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+  <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Malcolm Wanstall - Online Resume</title>
+
+
+        <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/raphael.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/g.raphael.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/g.pie.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/impact.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/impact-code.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/pie-loader.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/cvi_text_lib.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/instant.js" type="text/javascript" charset="utf-8"></script>
+
+        <link rel="stylesheet" href="css/mal-reset.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/mal-type.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/mal-base-ver1.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/mal-layout.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/page-main.css" type="text/css" media="screen">
+    </head>
+    <body>
+    <div id="page">
+	<div id="div-header">
+	    <h1>Malcolm Wanstall</h1>
+	</div>
+	<div id="div-contact">
+	  <h2>Contact Details</h2>
+	  <div class="div-content">
+	    <div class="clear"></div>
+	    <div class="left">
+	      <ul class="contact">
+		<li class="contact-det c-loc"><span>Location:</span><a href="http://maps.google.com.au/maps?f=q&source=s_q&hl=en&geocode=&q=western+sydney,+nsw&sll=-25.335448,135.745076&sspn=43.868778,71.191406&ie=UTF8&hq=western+sydney,&hnear=New+South+Wales&z=8">Sydney West, Australia</a></li>
+		<li class="contact-det c-mob"><span>Mobile:</span><a href="mailto:m.wanstall@gmail.com">please ask</a></li>
+		<li class="contact-det c-email"><span>Email:</span><a href="mailto:m.wanstall@gmail.com">m.wanstall@gmail.com</a></li>
+		<li class="contact-det c-web"><span>Website:</span><a href="http://www.mwanstall.com" alt="mwanstall.com">www.mwanstall.com</a></li>
+		<li class="contact-det c-blog"><span>Blog:</span><a href="http://www.mwanstall.com/blog" alt="blog.mwanstall.com">www.blog.mwanstall.com</a></li>
+	      </ul>	
+	    </div>
+	    <div class="left"><p class="quote">&#8220;Business Intelligence Analyst and Architect with strong Project Management and Stakeholder Management skills.&#8221;</p></div>
+	    <div class="right r-pad">
+	      <img src="img/resume-header-rawpic.png" width="175px" alt="Mal W - Nov 09" class="instant itiltright itxtalt icolorf9f9f9" />
+	    </div>
+	    <div class="clear"></div>
+	  </div>
+	</div>
+	<div id="div-skills">
+	  <h2>Skills Overview</h2>
+	  <div class="div-content">
+	    <h3>Chronological Skills Experience Chart</h3>
+	    <p>Mouse over an area to view the % of life dedicated to that skill at a particular time</p>
+	    <br/>
+	    <div id="skills">
+	      <ul>
+	      </ul>
+	    </div>
+	    <div id="chart">
+	    </div>
+	    <div class="clear"></div>
+	    <h3>Skills Summary</h3>
+	    <p>With a background in business analysis, database design and application development, I also have strong interpersonal skills which make the "people" side of business analysis my forte. A definite mix of technical and social skills gives me the ability to sit both sides of the fence relating and working equally as well with managers, customers and business people as I do with support departments such as IT and Finance. Whilst my recent experience has been in the Business Intelligence and Datawarehousing arenas I have broad interests in the general science and economics of business, economics and marketing and have a keen ability to learn new roles and skills quickly.</p>
+	    <ul class="skill-list">
+	      <li class="skill-item">
+		<h5>General Proficiencies</h5>
+		<ul>
+		  <li>Business Intelligence Architecture</li>
+		  <li class="odd">Business Analysis</li>
+		  <li>Project Management</li>
+		  <li class="odd">Datawarehousing</li>
+		  <li>Database Development</li>
+		  <li class="odd">Application Development</li>
+		  <li>Data Visualisation</li>
+		  <li class="odd">Stakeholder Management</li>
+		</ul>
+	      </li>
+	      <li class="skill-item">
+		<h5>Programming Language Experience</h5>
+		<ul>
+		    <li><span class="lang">C#</span><span class="exp">Major</span></li>
+		    <li class="odd"><span class="lang">Java</span><span class="exp">Major</span></li>
+		    <li><span class="lang">SQL</span><span class="exp">Major</span></li>
+		    <li class="odd"><span class="lang">Python</span><span class="exp">Major</span></li>
+		    <li><span class="lang">PHP</span><span class="exp">Major</span></li>
+		    <li class="odd"><span class="lang">HTML/CSS/JS etc</span><span class="exp">Major</span></li>
+		    <li><span class="lang">Perl</span><span class="exp">Minor</span></li>
+		    <li class="odd"><span class="lang">Ruby</span><span class="exp">Minor</span></li>
+		    <li><span class="lang">C</span><span class="exp">Minor</span></li>
+		    <li class="odd"><span class="lang">C++</span><span class="exp">Minor</span></li>
+		    <li><span class="lang">Lisp</span><span class="exp">Minor</span></li>
+		    <li class="odd"><span class="lang">Visual Basic</span><span class="exp">Minor</span></li>
+		</ul>
+	      </li>
+	      <li class="skill-item">
+		<h5>Computer Application Proficiency</h5>
+		<ul>
+		    <li>Microsoft BI Suite</li>
+		    <li class="odd">Cognos</li>
+		    <li>Oracle BI Suite</li>
+		    <li class="odd">Pentaho BI Suite</li>
+		    <li>Visual Studio</li>
+		    <li class="odd">NetBeans</li>
+		    <li>Eclipse</li>
+		    <li class="odd">ProClarity/PerformancePoint</li>
+		    <li><abbr title="Business Intelligence Development Studio">BIDS</abbr></li>
+		    <li class="odd">SQL Server/<abbr title="SQL Server Analysis Services">SSAS</abbr>/<abbr title="SQL Server Integration Services">SSIS</abbr>/<abbr title="SQL Server Reporting Services">SSRS</abbr></li>
+		    <li>SAP (backend)</li>
+		    <li class="odd">CRM Dynamics (backend)</li>
+		    <li>Clarify CRM (backend)</li>
+		</ul>
+	      </li>
+	      <li class="skill-item">
+		<h5>Operating System / Environments</h5>
+		<ul>
+		    <li>Windows XP/Vista/7</li>
+		    <li class="odd">Windows Server 2000/3</li>
+		    <li>Linux (Debian)</li>
+		</ul>
+	      </li>
+	    </ul>
+	    <div class="clear"></div>
+	  </div>
+	</div>
+	<div id="div-education">
+	  <h2>Education</h2>
+	  <div class="div-content">
+	    <h3>Degrees</h3>
+	    <ul class="rounded">
+	      <li>
+	      <div class="edu no-bottom">
+		<span class="edu-yr">2001 - 2004</span>
+		<span class="edu-item">B Business (Information Systems)</span>
+		<span class="edu-place">University of Western Sydney</span>
+		<span class="edu-blurb"><p><span>Grade Average:</span> Distinction</p>
+					<p><span>Key subjects:</span> Project Management, Advanced Business Application Development, Database Design and Development, Statistics</p>
+					<p><span>Highlights:</span> 1 Year Project soliciting requirements, designing and implementing CMS solution for a national company. Received High Distinction and offered employment by client.</p>
+		</span>
+	      </div>
+	      </li>
+	    </ul>
+	    <h3>Courses</h3>
+	    <ul class="rounded">
+	      <li>
+	      <div class="edu">  
+		<span class="edu-yr">2008</span>
+		<span class="edu-item">Business Intelligence Bootcamp</span>
+		<span class="edu-place">Dimension Data</span>
+	      </div>
+	      </li><li class="odd-dark">
+	      <div class="edu">
+		<span class="edu-yr">2008</span>
+		<span class="edu-item">MS Reporting Services Administration</span>
+		<span class="edu-place">Dimension Data</span>
+	      </div>
+	      </li><li>
+	      <div class="edu">
+		<span class="edu-yr">2008</span>
+		<span class="edu-item">MS Analysis Services Administration</span>
+		<span class="edu-place">Dimension Data</span>
+	      </div>
+	      </li><li class="odd-dark">
+	      <div class="edu">
+		<span class="edu-yr">2008</span>
+		<span class="edu-item">MS Integration Services Administration</span>
+		<span class="edu-place">Dimension Data</span>
+	      </div>
+	      </li><li>
+	      <div class="edu">
+		<span class="edu-yr">2006</span>
+		<span class="edu-item">Advances SQL Server 2005</span>
+		<span class="edu-place">Dimension Data</span>
+	      </div>
+	      </li><li class="odd-dark">
+	      <div class="edu">
+		<span class="edu-yr">2006</span>
+		<span class="edu-item">C# .NET Programming</span>
+		<span class="edu-place">Dimension Data</span>
+	      </div>
+	      </li><li>
+	      <div class="edu">
+		<span class="edu-yr">2006</span>
+		<span class="edu-item">SAS Advanced Statistical Analysis</span>
+		<span class="edu-place">SAS Institute</span>
+	      </div>
+	      </li><li class="odd-dark">
+	      <div class="edu">
+		<span class="edu-yr">2006</span>
+		<span class="edu-item">SAS Programmers Bootcamp</span>
+		<span class="edu-place">SAS Institute</span>
+	      </div>
+	      </li>
+	    </ul>
+	    <h3>Memberships</h3>
+	    <ul class="rounded">
+	      <li>
+	      <div class="edu">
+		  <span class="edu-yr">2009 - Current</span>
+		  <span class="edu-item">International Institute of Business Analysts</span>
+	      </div>
+	      </li><li class="odd-dark">
+	      <div class="edu">
+		  <span class="edu-yr">2009 - Current</span>
+		  <span class="edu-item">International High IQ Society</span>
+	      </div>
+	      </li><li>
+	      <div class="edu">
+		  <span class="edu-yr">2006 - Current</span>
+		  <span class="edu-item">Sydney Linux Users Group</span>
+	      </div>
+	      </li><li class="odd-dark">
+	      <div class="edu">
+		  <span class="edu-yr">2006 - Current</span>
+		  <span class="edu-item">SyPy - Sydney Python Users Group</span>
+	      </div>
+	      </li>
+	    </ul>
+	  </div>
+	</div>
+	<div id="div-employment">
+	  <h2>Employment History</h2>
+	  <div class="div-content">
+	    <div class="emp-history">
+	      <span class="emp-position">Business Analyst - Business Intelligence</span>
+	      <span class="emp-name">Roche Diagnostics Australia</span>
+	      <span class="emp-years">March 2008 - Current</span>
+	      <div class="clear"></div>
+		<span class="emp-duties">
+		  <h5>Achievements:</h5> 
+		  <ul>
+		    <li>Designed and developed Business Intelligence and Datawarehouse system based on Microsoft and Cognos technologies.</li>
+		    <li>Developed and deployed new reporting solutions through SQL Reporting Services and SQL Analysis Services and integration through MOSS (~70 Reports).</li>
+		    <li>Developed Budget Maintenance Applications to allow immediate business feedback into plans and next day reporting.</li>
+		    <li>Gathered requirements, wrote solutions and managed stakeholders for local and regional projects ranging from Contract Review Process to Integrated Business Reports using both Iterative and Agile methodologies.</li>
+		  </ul>
+		</span>
+		<h5 class="h5-sum">Skills Summary</h5>
+		<div id="emp-holder-roche" class="holder"></div>
+	      <div class="clear"></div>
+	    </div>
+	    <div class="emp-history">
+	      <span class="emp-position">Technical Business Analyst - Data Warehousing</span>
+	      <span class="emp-name">Case New Holland Australia</span>
+	      <span class="emp-years">June 2006 - March 2008</span>
+	      <div class="clear"></div>
+	      <span class="emp-duties">
+		<h5>Achievements:</h5> 
+		<ul>
+		  <li>Designed custom Datawarehouse and Reporting Platform based on Oracle BI Suite consisting of 30 reports and dashboards</li>
+		  <li>Designed and developed OLAP cubes and interfaced existing reporting systems with OLAP data</li>
+		  <li>Ran project to reduce obsolete stock held from $40M to <$25M</li>
+		  <li>Designed and developed business critical database to support Aftersales staff and services in Obsolescence Management</li>
+		  <li>Developed and implemented custom Warehouse Barcoding System.</li>
+		  <li>Implemented Demand Management Systems MRP and designed/developed interfaces to legacy mainframe systems via SAS.</li>
+		  <li>Developed reporting solutions and supplied ad hoc Business Intelligence support.</li>
+		  <li>Ran ad hoc business queries and analysed data to provide business statistics</li>
+		</ul>
+	      </span>
+	      <h5 class="h5-sum">Skills Summary</h5>
+	      <div id="emp-holder-case" class="holder"></div>
+	      <div class="clear"></div>
+	    </div>
+	    <div class="emp-history">
+	      <span class="emp-position">Lead Systems Analyst</span>
+	      <span class="emp-name">Cellix Systems</span>
+	      <span class="emp-years">March 2005 - July 2006</span>
+	      <div class="clear"></div>
+	      <span class="emp-duties">
+		<h5>Achievements:</h5>  
+		<ul>
+		  <li>Developed custom CMS libraries and integrated several Open Source solutions to create a deployable CMS system</li>
+		  <li>Developed and implemented mobile quoting facilities via web-services enabling immediate customer quoting based on defined real time business rules (previous quote-response being 24 hours)</li>
+		</ul>
+	      </span>
+	      <h5 class="h5-sum">Skills Summary</h5>
+	      <div id="emp-holder-cellix" class="holder"></div>
+	      <div class="clear"></div>
+	    </div>
+	  </div>
+	</div>
+	<div id="div-tick">
+	  <h2>What Makes Me Tick</h2>
+	  <div class="div-content">
+	    <h3>Interests / Hobbies</h3>
+	    <ul>
+	      <li>
+		<div>
+		  <span class="tick-title"><h5>Music</h5></span>
+		  <span class="tick-blurb"><p>Played trumpet since I was 4; also play guitar, dobro, piano, most brass and dabble in other strings. I got through Uni being a part-time music teacher and playing in bands. I still play regularly but mainly guitar only now (my chops aren't what they used to be). I enjoy listening to blues and jazz predominantly but also enjoy classical and rock. Currently in my playlist I have good ol' <a href="http://www.jackbruce.com/cream/">Cream</a>, some <a href="http://www.theblackkeys.com">Black Keys</a> and our local boys <a href="http://www.ashgrunwald.com">Ash Grunwald</a> and <a href="http://www.powderfinger.com">the 'finger</a>.</p></span>
+		</div>
+	      </li>
+	      <li>
+		<div>
+		  <span class="tick-title"><h5>Sport</h5></span>
+		  <span class="tick-blurb"><p>Really enjoy cricket; am a much better spectator than player but enjoy both. Really like the longer form of the game. To keep fit I enjoy squash and the odd bit of cycling and jogging.</p></span>
+		</div>
+	      </li>
+	      <li>
+		<div>
+		  <span class="tick-title"><h5>Data Visualisation and User Interfaces</h5></span>
+		  <span class="tick-blurb"><p>Much of my personal study goes into these areas as they both interest me a lot. With the wealth of data that's being opened up of late there is no end to experimenting with some cool GIS data or some fancy new UI tools.</p></span>
+		</div>
+	      </li>
+	      <li>
+		<div>
+		  <span class="tick-title"><h5>Emerging Web Technologies</h5></span>
+		  <span class="tick-blurb"><p>In fact, all emerging technologies. Currently the massive growth of the mobile technologies is keeping me really interested as well as the push to try to cater for the new web with HTML5 and CSS3 and some craftier web frameworks. It's an exciting time to be alive! Speaking of web tech, this page has been helped along by numerous js libraries (jQuery, Raphael, instant) so thanks guys.<p></span>
+		</div>
+	      </li>
+	    </ul>
+	    <h3>Honours</h3>
+	    <ul>
+	      <li>
+		Lions Club Youth of the Year 2009 Judge
+	      </li><li>
+		Lions Club Youth of The Year 2007 Judge
+	      </li><li>
+		Regional Public Speaking Competition Winner 2006
+	      </li><li>
+		Represented Australia in Montreux Jazz Festival Big Band 2004
+	      </li>
+	    </ul>
+	  </div>
+	</div>
+    </div>
+    </body>
+</html>
