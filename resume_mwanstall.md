@@ -88,8 +88,8 @@ I thrive on turning vision into reality, to help companies realise the hidden as
 
 ##Professional Experience
 
-###Data Warehouse Manager / EDW/BI Product Owner
-####MEDIBANK HEALTH SOLUTIONS - NOV 2011 &rarr; PRESENT
+###Data Warehouse / Business Intelligence Program Manager
+####MEDIBANK (MHS) - NOV 2011 &rarr; PRESENT
 #####Technologies: MS SQL Server, Business Objects, SSRS, SSAS, SSIS, SAS, MicroStrategy, SQL
 
 *Managing a team of Data Warehouse and Data Management professionals ranging from EDW/BI Solution Designers, BAs, QAs to Report Developers and Reporting Analysts to continue development of the Data Warehouse and Business Intelligence initiatives throughout Medibank Health Solutions. Additionally managing the scope and vision of the product and increasing the visibility of it's functions and future opportunities.*
