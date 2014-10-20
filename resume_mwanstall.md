@@ -11,7 +11,7 @@
 
 ####Senior IT Manager / Professional specialising in Business Intelligence, Data Warehousing, Data Management, Analytics and Reporting.
 
-Closing in on a decades' worth of experience in data strategy, department and program management, Greenfield EDW/BI implementation, product management, business analysis and solution design/architecture. A true professional generalist and thought leader in IT with a depth of experience in the analytics, reporting and data space with the proven capability to lead and evolve a vision of how to leverage information assets within a company.
+Closing in on a decades' worth of experience in data strategy, department and agile program management, greenfield agile EDW/BI implementation, product management, business analysis and solution design/architecture. A true professional generalist and thought leader in IT with a depth of experience in the analytics, reporting and data space with the proven capability to lead and evolve a vision of how to leverage information assets within a company.
 
 I thrive on turning vision into reality, to help companies realise the hidden assets they have in the data, people and capabilities they often already possess but have yet to fully leverage.
 
@@ -22,6 +22,7 @@ I thrive on turning vision into reality, to help companies realise the hidden as
 - Corporate/IT/Data Strategy
 - Lean Project Management
 - Agile Project Management
+- Scaled Agile Framework
 - Product Management
 - Budgeting / Forecasting
 - Project Initiation
@@ -82,11 +83,17 @@ I thrive on turning vision into reality, to help companies realise the hidden as
 - Python
 - Java
 - C#
-- SAS
+- SAS / R
 - PHP
 - JavaScript
 
 ##Professional Experience
+
+###Data Program Manager
+####TAL Life Insurance - JUL 2014 &rarr; PRESENT
+#####Technologies: MS SQL Server, Business Objects, SSRS, SSAS, SSIS, SAS, SPSS, Tableau, SQL
+
+*Implementing and coordinating an ongoing program of work in the Data space including Analytics, Business Intelligence, Reporting, Data Management and Data Strategy. Transitioning from a waterfall environment to a Scaled Agile environment to allow the establishment of a data capability that responds to business requirements efficiently and effectively.*
 
 ###Data Warehouse / Business Intelligence Program Manager
 ####MEDIBANK (MHS) - NOV 2011 &rarr; PRESENT
@@ -249,7 +256,7 @@ A Greenfield initiative to introduce a Self Service Business Intelligence platfo
 ###CNH Obsolescence Management Program
 Reduction of the obsolete stock held on hand by 80% was required, involving analysis programs to identify stock at varying levels of obsolescence and allow it to be sold at the highest possible margin. Targets were achieved over 1 year ahead of initial plan.
 
-##Education & Associations
+##Education, Certification & Associations
 
 ###University Education
 
@@ -260,8 +267,14 @@ Reduction of the obsolete stock held on hand by 80% was required, involving anal
 *Key Subjects:* Project Management, Advanced Business Application Development, Database Design and Development, Statistics  
 *Highlights:* 1 Year Project soliciting requirements, designing and implementing CMS solution for a national company. Received High Distinction and offered employment by client.
 
+###University Education
+
+- Certified Scrum Master
+- SAFe Agilist
+
 ###Associations
 
+- 2014 &rarr; Current	- [Scaled Agile Academy](http://www.scaledagileacademy.com/)
 - 2011 &rarr; Current	- [DAMA (Data Management Association)](http://www.dama.org.au/)
 - 2009 &rarr; Current 	- [International Institute of Business Analysts](http://australia.iiba.-org/)
 - 2009 &rarr; Current 	- [International High IQ Society](http://www.highiqsociety.org/)
