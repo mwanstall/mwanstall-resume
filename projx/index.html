@@ -1,0 +1,45 @@
+<html>
+<head><title>Project X - Research Page</title>
+<link href="base.css" type="text/css" rel="stylesheet"></link>
+</head>
+<body>
+<div id='body' class='container'>
+<h1>Project X - Research Page</h1>
+<h4>Last Updated: 29/06/2015</h4>
+<h2>System Diagram</h2>
+<img src="systemdiag.png" width='100%'></img>
+<h3>Breakdown</h3>
+<ol>
+	<li><b><u>Source:</u></b> Source data feeds - fed via connectors, ideally things like JSON data feeds. Feeds data in a raw format, one row per activity/event</li>
+	<li><b><u>Inbound Queue:</u></b> [Technology: Kafka] Queues the incoming data streams for processing. Used to ensure all data makes it through the system regardless of load. Pub/sub architecture. JSON Feeds are sent to queues.</li>
+	<li><b><u>Party Matching Engine:</u></b> [Technology: Storm? Spark Streaming?] Takes incoming raw data and uses identity fields to either match to a known party or create a new party record. If match is found it provides our surrogate key, if no match then new surrogate key generated.</li>
+	<li><b><u>Party Repository:</u></b> [Technology: Cassandra?] Stores all Parties with any Identifiable Information used for matching purposes. Security concern.</li>
+	<li><b><u>Feature Splitter:</u></b> [Technology: Storm / Spark Streaming]Takes Raw Data Event (now with surrogate Party Key) and splits it into Features, one Feature per row. Explained in detail later.</li>
+	<li><b><u>Aggregation Engine:</u></b> Aggregates all Feature results for a particulare Party for a given Period (inputs: Party, Feature, Period | output: Party Aggregate Row with all features)</li>
+	<li><b><u>Model:</u></b> </li>
+	<li><b><u>Scorer:</u></b> </li>
+	<li><b><u>Score Store:</u></b> Stores the latest Score record for each Party</li>
+	<li><b><u>Outbound Queue:</u></b> Queues any Party Score Store records that have been altered</li>
+	<li><b><u>Subscriber Service:</u></b> Listens for the Outbound Queue to receive a new Party Record</li>
+	<li><b><u>Query API:</u></b> Allows active querying of the Score Store</li>
+</ol>
+<h2>System Demo</h2>
+<p>System Demo will include the following components:</p>
+<ul>
+	<li>Source: Simple single source of data, ideally some real Customer Activity records with identifiable information</li>
+	<li>Feature Splitter: </li>
+	<li>Aggregation Engine: </li>
+	<li>Model: </li>
+	<li>Scorer: </li>
+	<li>Score Store: </li>
+</ul>
+<h2>Data Notes</h2>
+<p>The data will come in in a raw format, ideally some kind of a JSON feed. I'd expect something like this:</p>
+<img src="data_ex1.png"></img>
+<p>Given enough information we'd match the Party to a Party ID (in this case we match Mal Wanstall to our only record of Malcolm Wanstall with Customer ID 9999. THe features are then split post party match to look like this:</p>
+<img src="data_ex2.png"></img>
+<p>These features would then get aggregated with other features of the same Party ID and the same Feature ID for a given Aggregate Period and the various statistics would be produced resulting in an Agg Record:</p>
+<img src="data_ex3.png"></img>
+</div>
+</body>
+</html>
